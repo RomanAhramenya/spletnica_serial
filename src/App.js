@@ -15,6 +15,14 @@ function App() {
       setserias(Number(localSerias));
     }
   }, []);
+  document.addEventListener('keydown',(e)=>{
+    if(e.code === 'Numpad3'){
+      setserias(serias + 1)
+    }
+    if(e.code === 'Numpad1'){
+      setserias(serias - 1)
+    }
+  })
   return (
     <div className="App">
       <Header />

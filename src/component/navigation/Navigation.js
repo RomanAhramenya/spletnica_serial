@@ -48,6 +48,7 @@ const Navigation = ({season,serias,setSeason,setserias}) => {
     },
     { season: 6, serias: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] },
   ];
+ 
   return (
     <nav className={s.container}>
       <div className={s.season}>
